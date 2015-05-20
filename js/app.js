@@ -11,7 +11,7 @@
   var db = new PouchDB('todos');
 
   // Replace with remote instance, this just replicates to another local instance.
-  var remoteCouch = 'todos_remote';
+  var remoteCouch = 'http://pouchdb-offline.iriscouch.com/todos';
 
   db.changes({
     since: 'now',
