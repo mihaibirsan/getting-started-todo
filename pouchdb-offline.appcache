@@ -1,13 +1,13 @@
 CACHE MANIFEST
-# 2015-05-20:v1
+# 2015-05-20:v2
 
 # Explicitly cached 'master entries'.
 CACHE:
 index.html
-/style/base.css
+style/base.css
 http://cdn.jsdelivr.net/pouchdb/3.2.0/pouchdb.min.js
-/js/base.js
-/js/app.js
+js/base.js
+js/app.js
 
 # Resources that require the user to be online.
 NETWORK:
